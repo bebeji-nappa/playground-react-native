@@ -14,7 +14,16 @@
   "jest": {
     "preset": "jest-expo"
   },
+  "engines": {
+    "node": "20.15.0",
+    "pnpm": "9.5.0"
+  },
+  "volta": {
+    "node": "20.15.0",
+    "pnpm": "9.5.0"
+  },
   "dependencies": {
+    "@emotion/styled": "^11.11.5",
     "@expo/vector-icons": "^14.0.2",
     "@react-navigation/native": "^6.0.2",
     "expo": "~51.0.18",
